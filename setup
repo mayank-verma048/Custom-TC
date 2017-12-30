@@ -1,9 +1,9 @@
 #!/bin/bash
 clear
-echo "NutChain Linaro 7.1 R05/17 SN"
+echo "NutChain Linaro 7.2 R11/17 SN"
 echo "Setting up toolchain for use"
 rm -rf .git
-cd libexec/gcc/x86_64-linux-gnu/7.1.1
+cd libexec/gcc/x86_64-linux-gnu/7.2.1
 echo "******[You must have tar & cat installed to make this TC useable]******"
 echo "Rebuilding tarfile"
 cat execlib* > execlib.tar.xz
@@ -17,8 +17,8 @@ echo " "
 echo "Use these export commands now"
 echo " "
 echo "export ARCH=x86_64"
-echo "export CCOMPILE=$CROSS_COMPILE"
 echo "export CROSS_COMPILE=x86_64-linux-"
+echo "export CCOMPILE=$CROSS_COMPILE"
 echo " "
 echo " "
 echo "Happy compiling :) "

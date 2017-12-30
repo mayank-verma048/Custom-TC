@@ -719,7 +719,7 @@ Return the current BFD error condition.
 .......................
 
 *Synopsis*
-     void bfd_set_error (bfd_error_type error_tag, ...);
+     void bfd_set_error (int error_tag, ...);
    *Description*
 Set the BFD error condition to be ERROR_TAG.  If ERROR_TAG is
 bfd_error_on_input, then this function takes two more parameters, the
@@ -14020,60 +14020,60 @@ Node: Canonical format8788
 Node: BFD front end13165
 Node: typedef bfd13589
 Node: Error reporting25924
-Node: Miscellaneous30404
-Node: Memory Usage49274
-Node: Initialization50505
-Node: Sections50964
-Node: Section Input51447
-Node: Section Output52816
-Node: typedef asection55303
-Node: section prototypes82529
-Node: Symbols93136
-Node: Reading Symbols94739
-Node: Writing Symbols95847
-Node: Mini Symbols97591
-Node: typedef asymbol98565
-Node: symbol handling functions104621
-Node: Archives109959
-Node: Formats113987
-Node: Relocations116938
-Node: typedef arelent117665
-Node: howto manager133321
-Node: Core Files258324
-Node: Targets260362
-Node: bfd_target262337
-Node: Architectures286307
-Node: Opening and Closing316093
-Node: Internal334268
-Node: File Caching340617
-Node: Linker Functions342535
-Node: Creating a Linker Hash Table344209
-Node: Adding Symbols to the Hash Table345948
-Node: Differing file formats346848
-Node: Adding symbols from an object file348573
-Node: Adding symbols from an archive350723
-Node: Performing the Final Link353069
-Node: Information provided by the linker354310
-Node: Relocating the section contents355464
-Node: Writing the symbol table357216
-Node: Hash Tables363878
-Node: Creating and Freeing a Hash Table365076
-Node: Looking Up or Entering a String366326
-Node: Traversing a Hash Table367579
-Node: Deriving a New Hash Table Type368368
-Node: Define the Derived Structures369434
-Node: Write the Derived Creation Routine370515
-Node: Write Other Derived Routines373139
-Node: BFD back ends374454
-Node: What to Put Where374724
-Node: aout374904
-Node: coff381247
-Node: elf410117
-Node: mmo410518
-Node: File layout411388
-Node: Symbol-table417301
-Node: mmo section mapping421064
-Node: GNU Free Documentation License424718
-Node: BFD Index449782
+Node: Miscellaneous30393
+Node: Memory Usage49263
+Node: Initialization50494
+Node: Sections50953
+Node: Section Input51436
+Node: Section Output52805
+Node: typedef asection55292
+Node: section prototypes82518
+Node: Symbols93125
+Node: Reading Symbols94728
+Node: Writing Symbols95836
+Node: Mini Symbols97580
+Node: typedef asymbol98554
+Node: symbol handling functions104610
+Node: Archives109948
+Node: Formats113976
+Node: Relocations116927
+Node: typedef arelent117654
+Node: howto manager133310
+Node: Core Files258313
+Node: Targets260351
+Node: bfd_target262326
+Node: Architectures286296
+Node: Opening and Closing316082
+Node: Internal334257
+Node: File Caching340606
+Node: Linker Functions342524
+Node: Creating a Linker Hash Table344198
+Node: Adding Symbols to the Hash Table345937
+Node: Differing file formats346837
+Node: Adding symbols from an object file348562
+Node: Adding symbols from an archive350712
+Node: Performing the Final Link353058
+Node: Information provided by the linker354299
+Node: Relocating the section contents355453
+Node: Writing the symbol table357205
+Node: Hash Tables363867
+Node: Creating and Freeing a Hash Table365065
+Node: Looking Up or Entering a String366315
+Node: Traversing a Hash Table367568
+Node: Deriving a New Hash Table Type368357
+Node: Define the Derived Structures369423
+Node: Write the Derived Creation Routine370504
+Node: Write Other Derived Routines373128
+Node: BFD back ends374443
+Node: What to Put Where374713
+Node: aout374893
+Node: coff381236
+Node: elf410106
+Node: mmo410507
+Node: File layout411377
+Node: Symbol-table417290
+Node: mmo section mapping421053
+Node: GNU Free Documentation License424707
+Node: BFD Index449771
 
 End Tag Table

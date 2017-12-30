@@ -1,6 +1,6 @@
 This is ld.info, produced by makeinfo version 6.1 from ld.texinfo.
 
-This file documents the GNU linker LD (GNU Binutils) version 2.29.0.
+This file documents the GNU linker LD (GNU Binutils) version 2.29.1.
 
    Copyright (C) 1991-2017 Free Software Foundation, Inc.
 
@@ -21,7 +21,7 @@ File: ld.info,  Node: Top,  Next: Overview,  Up: (dir)
 LD
 **
 
-This file documents the GNU linker ld (GNU Binutils) version 2.29.0.
+This file documents the GNU linker ld (GNU Binutils) version 2.29.1.
 
    This document is distributed under the terms of the GNU Free
 Documentation License version 1.3.  A copy of the license is included in
@@ -6136,10 +6136,13 @@ File: ld.info,  Node: PowerPC64 ELF64,  Next: S/390 ELF,  Prev: PowerPC ELF32,  
 '--plt-align'
 '--no-plt-align'
      Use these options to control whether individual PLT call stubs are
-     padded so that they don't cross a 32-byte boundary, or to the
-     specified power of two boundary when using '--plt-align='.  Note
-     that this isn't alignment in the usual sense.  By default PLT call
-     stubs are packed tightly.
+     aligned to a 32-byte boundary, or to the specified power of two
+     boundary when using '--plt-align='.  A negative value may be
+     specified to pad PLT call stubs so that they do not cross the
+     specified power of two boundary (or the minimum number of
+     boundaries if a PLT stub is so large that it must cross a
+     boundary).  By default PLT call stubs are aligned to 32-byte
+     boundaries.
 
 '--plt-static-chain'
 '--no-plt-static-chain'
@@ -7892,9 +7895,9 @@ LD Index
 * --no-opd-optimize:                     PowerPC64 ELF64.    (line   70)
 * --no-overlays:                         SPU ELF.            (line    9)
 * --no-plt-align:                        PowerPC64 ELF64.    (line  118)
-* --no-plt-localentry:                   PowerPC64 ELF64.    (line  144)
-* --no-plt-static-chain:                 PowerPC64 ELF64.    (line  126)
-* --no-plt-thread-safe:                  PowerPC64 ELF64.    (line  132)
+* --no-plt-localentry:                   PowerPC64 ELF64.    (line  147)
+* --no-plt-static-chain:                 PowerPC64 ELF64.    (line  129)
+* --no-plt-thread-safe:                  PowerPC64 ELF64.    (line  135)
 * --no-print-gc-sections:                Options.            (line 1139)
 * --no-save-restore-funcs:               PowerPC64 ELF64.    (line   44)
 * --no-seh:                              Options.            (line 2241)
@@ -7923,9 +7926,9 @@ LD Index
 * --pic-executable:                      Options.            (line 1299)
 * --pic-veneer:                          ARM.                (line  171)
 * --plt-align:                           PowerPC64 ELF64.    (line  118)
-* --plt-localentry:                      PowerPC64 ELF64.    (line  144)
-* --plt-static-chain:                    PowerPC64 ELF64.    (line  126)
-* --plt-thread-safe:                     PowerPC64 ELF64.    (line  132)
+* --plt-localentry:                      PowerPC64 ELF64.    (line  147)
+* --plt-static-chain:                    PowerPC64 ELF64.    (line  129)
+* --plt-thread-safe:                     PowerPC64 ELF64.    (line  135)
 * --plugin:                              SPU ELF.            (line    6)
 * --pop-state:                           Options.            (line  504)
 * --print-gc-sections:                   Options.            (line 1139)
@@ -8444,12 +8447,12 @@ LD Index
 * PowerPC64 dot symbols:                 PowerPC64 ELF64.    (line   33)
 * PowerPC64 ELF64 options:               PowerPC64 ELF64.    (line    6)
 * PowerPC64 ELFv2 PLT localentry optimization: PowerPC64 ELF64.
-                                                             (line  144)
+                                                             (line  147)
 * PowerPC64 multi-TOC:                   PowerPC64 ELF64.    (line   96)
 * PowerPC64 OPD optimization:            PowerPC64 ELF64.    (line   70)
 * PowerPC64 OPD spacing:                 PowerPC64 ELF64.    (line   76)
-* PowerPC64 PLT call stub static chain:  PowerPC64 ELF64.    (line  126)
-* PowerPC64 PLT call stub thread safety: PowerPC64 ELF64.    (line  132)
+* PowerPC64 PLT call stub static chain:  PowerPC64 ELF64.    (line  129)
+* PowerPC64 PLT call stub thread safety: PowerPC64 ELF64.    (line  135)
 * PowerPC64 PLT stub alignment:          PowerPC64 ELF64.    (line  118)
 * PowerPC64 register save/restore functions: PowerPC64 ELF64.
                                                              (line   44)
@@ -8713,20 +8716,20 @@ Node: NDS32254869
 Node: Nios II255835
 Node: PowerPC ELF32257151
 Node: PowerPC64 ELF64259982
-Node: S/390 ELF268208
-Node: SPU ELF268555
-Node: TI COFF271183
-Node: WIN32271709
-Node: Xtensa291838
-Node: BFD294804
-Node: BFD outline296262
-Node: BFD information loss297550
-Node: Canonical format300076
-Node: Reporting Bugs304438
-Node: Bug Criteria305132
-Node: Bug Reporting305831
-Node: MRI312869
-Node: GNU Free Documentation License317511
-Node: LD Index342648
+Node: S/390 ELF268379
+Node: SPU ELF268726
+Node: TI COFF271354
+Node: WIN32271880
+Node: Xtensa292009
+Node: BFD294975
+Node: BFD outline296433
+Node: BFD information loss297721
+Node: Canonical format300247
+Node: Reporting Bugs304609
+Node: Bug Criteria305303
+Node: Bug Reporting306002
+Node: MRI313040
+Node: GNU Free Documentation License317682
+Node: LD Index342819
 
 End Tag Table

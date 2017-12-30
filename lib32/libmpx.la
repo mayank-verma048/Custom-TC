@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname=''
+dlname='libmpx.so.2'
 
 # Names of this library.
-library_names=''
+library_names='libmpx.so.2.0.1 libmpx.so.2 libmpx.so'
 
 # The name of the static archive.
 old_library='libmpx.a'
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/dev/out/lib/../lib32'
+libdir='/home/dev/Stuff/TC/lib/../lib32'

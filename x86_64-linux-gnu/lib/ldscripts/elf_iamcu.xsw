@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-iamcu", "elf32-iamcu",
 	      "elf32-iamcu")
 OUTPUT_ARCH(iamcu)
 ENTRY(_start)
-SEARCH_DIR("=/home/dev/out/x86_64-linux-gnu/lib");
+SEARCH_DIR("=/home/dev/Stuff/TC/x86_64-linux-gnu/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

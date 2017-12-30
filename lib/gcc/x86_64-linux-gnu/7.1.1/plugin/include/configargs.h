@@ -1,7 +1,0 @@
-/* Generated automatically. */
-static const char configuration_arguments[] = "../gcc/configure --build=x86_64-linux-gnu --target=x86_64-linux-gnu --with-gcc-version=Linaro7.1_1705 --with-cloog --disable-sjlj-exceptions --enable-gnu-unique-object --enable-linker-build-id --disable-libstdcxx-pch --enable-c99 --enable-clocale=gnu --enable-libstdcxx-debug --enable-long-long --enable-libstdcxx-time=yes --enable-gnu-indirect-function --with-isl --with-newlib --with-ppl --disable-shared --enable-languages=c,c++ --enable-graphite=yes --enable-plugins --enable-gold=default --disable-option-checking --disable-headers --disable-bootstrap --enable-threads --enable-gnu-indirect-function --disable-libcilkrts --disable-libsanitizer --with-fpmath=sse --disable-nls --with-gnu-as --with-gnu-ld --enable-lto --enable-multiarch --with-diagnostics-color=always --enable-libatomic-ifuncs=no --with-host-libstdcxx='-static-libgcc -Wl,-Bstatic,-lstdc++,-Bdynamic -lm' --enable-eh-frame-hdr-for-static --enable-initfini-array --program-transform-name='s&^&x86_64-linux-&' --with-arch=x86-64 --with-tune=intel --enable-cloog-backend=isl --enable-multilib-list=m32,mx32,m64 --enable-checking=yes --with-sysroot=/ --with-isysroot=/home/dev/Stuff/sys --with-python --prefix=/home/dev/out";
-static const char thread_model[] = "posix";
-
-static const struct {
-  const char *name, *value;
-} configure_default_options[] = { { "cpu", "generic" }, { "arch", "x86-64" }, { "tune", "intel" } };

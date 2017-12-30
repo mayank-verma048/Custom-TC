@@ -7,7 +7,7 @@ OUTPUT_FORMAT("elf32-i386", "elf32-i386",
 	      "elf32-i386")
 OUTPUT_ARCH(i386)
 ENTRY(_start)
-SEARCH_DIR("=/home/dev/out/i386-linux-gnu/lib32"); SEARCH_DIR("=/home/dev/out/x86_64-linux-gnu/lib32"); SEARCH_DIR("=/home/dev/out/lib32"); SEARCH_DIR("=/usr/local/lib32"); SEARCH_DIR("=/lib32"); SEARCH_DIR("=/usr/lib32"); SEARCH_DIR("=/home/dev/out/i386-linux-gnu/lib"); SEARCH_DIR("=/home/dev/out/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
+SEARCH_DIR("=/home/dev/Stuff/TC/i386-linux-gnu/lib32"); SEARCH_DIR("=/home/dev/Stuff/TC/x86_64-linux-gnu/lib32"); SEARCH_DIR("=/home/dev/Stuff/TC/lib32"); SEARCH_DIR("=/usr/local/lib32"); SEARCH_DIR("=/lib32"); SEARCH_DIR("=/usr/lib32"); SEARCH_DIR("=/home/dev/Stuff/TC/i386-linux-gnu/lib"); SEARCH_DIR("=/home/dev/Stuff/TC/lib"); SEARCH_DIR("=/usr/local/lib"); SEARCH_DIR("=/lib"); SEARCH_DIR("=/usr/lib");
 SECTIONS
 {
   /* Read-only sections, merged into text segment: */

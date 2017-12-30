@@ -5,10 +5,10 @@
 # It is necessary for linking the library.
 
 # The name that we can dlopen(3).
-dlname=''
+dlname='libmpxwrappers.so.2'
 
 # Names of this library.
-library_names=''
+library_names='libmpxwrappers.so.2.0.1 libmpxwrappers.so.2 libmpxwrappers.so'
 
 # The name of the static archive.
 old_library='libmpxwrappers.a'
@@ -38,4 +38,4 @@ dlopen=''
 dlpreopen=''
 
 # Directory that this library needs to be installed in:
-libdir='/home/dev/out/lib/../lib64'
+libdir='/home/dev/Stuff/TC/lib/../lib64'
