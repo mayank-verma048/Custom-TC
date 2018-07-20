@@ -12,7 +12,7 @@
   <remove-project name="platform/hardware/intel/img/psb_video"/>
 
   <project name="nutcasev15/android_device_asus_Z00A" path="device/asus/Z00A" remote="github" revision="ZF2" />
-  <project name="nutcasev15/android_device_asus_Z008" path="device/asus/Z008" remote="github" revision="ZF2" />
+
   <project name="nutcasev15/android_device_asus_mofd-common" path="device/asus/mofd-common" remote="github" revision="8.1" />
   <project name="nutcasev15/Hololite" path="kernel/asus/moorefield" remote="github" revision="O" />
   <project name="jrior001/proprietary_vendor_asus" path="vendor/asus" remote="github" revision="lineage-15.0" />
